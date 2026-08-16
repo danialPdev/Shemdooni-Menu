@@ -1,0 +1,50 @@
+body{background-color: #F5EFE3; margin:0vw; font-family: "Cormorant Garamond";}
+h1{text-align: center; margin-top: -5%;}
+img.logo{display: block; margin: auto;}
+div{margin-bottom: 0%;}
+table{border-spacing:3vw; margin-left: 0vw;}
+ul{display: flex;
+    gap: 20px;
+    overflow: auto;
+    white-space: nowrap;
+    list-style: none;
+    padding-bottom: 3%;}
+img{
+    width: 40vw;}
+a{color: black;}
+div.list{border: black solid; 
+            border-radius:20%;}
+img.barlogo{width:10vw; 
+                position: relative;
+                top: 4vw;}
+li{display: flex;
+        align-items: center;
+        position: relative;
+        bottom: 2vw;}
+
+details img{
+    border-radius: 12px;
+    filter: contrast(1.08) saturate(1.12) brightness(1.03);
+    box-shadow: 0 4px 12px rgb(0, 0, 0, 0.15);}
+
+div.ingredients{font-size: 10px; 
+    font-family:"Montserrat";
+    padding-left: 10px;
+    padding-top: 4px;}
+
+
+input{
+    position:absolute;
+    right: 3vw;
+    top:3vw;
+    background-color: #8B5E3C;
+    color: #F5EFE3;
+    border: 1px solid #8B5E3C;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
